@@ -1,0 +1,134 @@
+div {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#titulo {
+    font-family: 'Cambria';
+    font-size: 100px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#numero_8 {
+    color: red;
+    padding-right: 50px;
+}
+
+#letra_P {
+    color: green;
+}
+
+#letra_U {
+    color: blue;
+}
+
+#letra_Z1 {
+    color: yellow;
+}
+
+#letra_Z2 {
+    color: red;
+}
+
+#letra_L {
+    color: black;
+}
+
+#letra_E {
+    color: purple;
+}
+
+#tabela_central {
+    border-spacing: 30px;
+    border-collapse: separate;
+}
+
+.coluna_vazia {
+    width: 50px;
+}
+
+.tabuleiro {
+    align-items: center;
+    background-color: gray;
+    border: 1px solid black;
+    border-spacing: 20px;
+    border-style: outset;
+}
+
+.tabuleiro td {
+    font-family: Cambria, Arial;
+    text-align: center;
+    font-size: 60px;
+    border: 1px solid black;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-style: outset;
+}
+
+#celula_1 {
+    background-color: orange;
+}
+
+#celula_2 {
+    background-color: red;
+}
+
+#celula_3 {
+    background-color: purple;
+}
+
+#celula_4 {
+    background-color: green;
+}
+
+#celula_5 {
+    background-color: black;
+}
+
+#celula_6 {
+    background-color: pink;
+}
+
+#celula_7 {
+    background-color: blue;
+}
+
+#celula_8 {
+    background-color: yellow;
+}
+
+#celula_9 {
+    background-color: #A8A8A8;
+}
+
+#btnNovoJogo {
+    font-family: 'Cambria';
+    font-size: 40px;
+    color: blue;
+}
+
+#resultado {
+    font-family: 'Cambria';
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+#frmSetup {
+    font-family: 'Cambria';
+    font-size: 30px;
+    color: blue;
+}
+
+form.frmJogo {
+    text-align: center;
+    border: 1px;
+}
+
+#jogadas_realizadas {
+    width: 300px;
+}

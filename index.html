@@ -1,0 +1,59 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="8_puzzle.js" charset="utf-8"></script>
+</head>
+<body onKeyDown="checaControles(event.keyCode)">
+    <p id="titulo">
+        <span id=numero_8> 8 </span>
+        <span id=letra_P> P </span>
+        <span id=letra_U> U </span>
+        <span id=letra_Z1> Z </span>
+
+        <span id=letra_Z2> Z </span>
+        <span id=letra_L> L </span>
+        <span id=letra_E> E </span>  
+    </p>
+    
+<div>
+    <table id=tabela_central>
+        <tr> <!-- coluna vazia -->
+            <td class="coluna_vazia"></td>
+            <!-- coluna com uma nova tabela com o tabuleiro -->
+            <td>
+                <h2 id=principal></h2>
+                <form name="frmJogo">
+                    <table class="tabuleiro">
+                            <tr>
+                                <td id=celula_1> 8 </td>
+                                <td id=celula_2> 4 </td>
+                                <td id=celula_3> 1 </td></tr>
+                            <tr>
+                                <td id=celula_4>7 </td>
+                                <td id=celula_5> </td>
+                                <td id=celula_6> 2 </td>
+                            </tr>
+                            <tr>
+                                <td id=celula_7> 3 </td>
+                                <td id=celula_8> 5 </td>
+                                <td id=celula_9> 6 </td>
+                            </tr>
+                    </table>
+                </form>
+            </td>
+                <td> <p id=resultado> Dificuldade: </p>
+                    <form name="frmSetup" id=frmSetup>
+                        <input type="radio" name="dificuldade" value="D" CHECKED> Difícil <br><br>
+                        <input type="radio" name="dificuldade" value="N"> Normal <br><br>
+                        <input type="radio" name="dificuldade" value="C"> Bebê de colo
+                    </form>
+                    <input type="button" id=btnNovoJogo value="Novo jogo" onclick="nova_partida()">
+                    <h1 id=jogadas_realizadas> movimentos: 0 </h1>
+                    </form>
+                </td> 
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
